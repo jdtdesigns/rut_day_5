@@ -1,0 +1,63 @@
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* GLOBAL CLASSES/REUSABLE */
+.row, .column {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* CUSTOM STYLES */
+header {
+  background: #555;
+  padding: 10px 5%;
+}
+
+header h3 {
+  color: #fff;
+}
+
+main {
+  flex: 1;
+}
+
+main section {
+  flex: 1;
+}
+
+.left {
+  background: coral;
+}
+
+.right {
+  background-color: lightseagreen;
+}
+
+footer {
+  padding: 35px 5%;
+  background-color: #aaa;
+}
